@@ -1,5 +1,5 @@
 1. start Config-server application
-2. start eureka-server app
+2. start eureka-server(develop branch) app
 3. start eureka-server-multi app
 4. start eureka-client(in 3 profiles dev/sit/uat)
 5. start product-service-api-gateway
