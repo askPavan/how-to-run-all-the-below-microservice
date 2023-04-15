@@ -1,0 +1,10 @@
+1. start Config-server application
+2. start eureka-server app
+3. start eureka-server-multi app
+4. start eureka-client(in 3 profiles dev/sit/uat)
+5. start product-service
+6. start product-service-api-gateway
+
+Hit in to the "product-service"(http://localhost:8081/api/products/1000)  from here by using circuit breaker it will call api gateway(product-service-api-gateway)
+
+it will call eureka-client in round robin way. check in eureka-client console.
