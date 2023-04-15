@@ -5,7 +5,7 @@
 5. start product-service-api-gateway
 6. start product-service
 
-Hit in to the "product-service"(http://localhost:8081/api/products/1000)  from here by using circuit breaker it will call api gateway(product-service-api-gateway)
+when tit in to the "product-service"(http://localhost:8081/api/products/1000) it acts as client. this product-service using circuit breaker and load balancing it will call api gateway(product-service-api-gateway)
 
 it will call eureka-client in round robin way. check in eureka-client console.
 
