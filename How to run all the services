@@ -8,3 +8,5 @@
 Hit in to the "product-service"(http://localhost:8081/api/products/1000)  from here by using circuit breaker it will call api gateway(product-service-api-gateway)
 
 it will call eureka-client in round robin way. check in eureka-client console.
+
+Note: using global-configurations for fetching configs from github
